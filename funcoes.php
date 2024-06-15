@@ -94,6 +94,12 @@
             return "$valorB $valorA";
         }
     }
+ 
+    // exercício 7 - Converter metro em centímetro
+    function converterMetrosParaCentimetros($metros) {
+        return $metros * 100;
+
+    // exercício 8 - 
 
 
 
