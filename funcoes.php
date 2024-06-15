@@ -62,7 +62,7 @@
             return $resultado;
         }
 
-    // exercício 4
+    // exercício 4 - Tabuada
     function tabuada($valor){
 
         for($i=0;$i<=10;$i++){
@@ -71,6 +71,30 @@
         }
 
     }
+
+    // exercício 5 - Fatorial
+    function calcularFatorial($numero) {
+        if ($numero < 0) {
+            return "Número inválido";
+        }
+        $fatorial = 1;
+        for ($i = $numero; $i > 1; $i--) {
+            $fatorial *= $i;
+        }
+        return $fatorial;
+    }
+
+    // exercício 6 
+    function ordenarValores($valorA, $valorB) {
+        if ($valorA == $valorB) {
+            return "Números iguais: $valorA";
+        } elseif ($valorA < $valorB) {
+            return "$valorA $valorB";
+        } else {
+            return "$valorB $valorA";
+        }
+    }
+
 
 
 
