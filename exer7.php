@@ -7,7 +7,7 @@
     <form action="exer7resp.php" method="post">
         <div class="row">
             <div class="col">
-                <label for="valor" class="form-label">Valor em Metros:</label>
+                <label for="metros" class="form-label">Valor em Metros:</label>
                 <input type="number" class="form-control" step="0.01" id="metros" name="metros" required>
             </div>
         </div>
